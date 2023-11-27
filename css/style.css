@@ -1,0 +1,38 @@
+.hidden {
+    display: none;
+}
+
+
+#quote {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    margin-top: 12cm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -500%);
+    text-align: center;
+}
+
+.weather {
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    margin-top: 10cm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -700%);
+    
+}
+
+
+.Image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadIn 1s linear;
+}
+
